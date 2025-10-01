@@ -30,8 +30,17 @@ The first character of an identifier cannot be a digit.
 Keywords
 ========
 
+``__Bool``
+    Defines a boolean variable. It is the primary type of the ``bool`` alias.
+
+``_Complex``
+    Defines a complex number variable.
+
+``_Imaginary``
+    Defines an imaginary number variable.
+
 ``auto``
-    [Description of auto]
+    [Description of auto]. Auto is used by default for variables so there is no need to use it.
 
 ``break``
     Breaks out of the current loop/switch.
@@ -77,6 +86,9 @@ Keywords
 
 ``if``
     Checks if the given condition is true.
+
+``inline``
+    Declare a function that must be optimized for time performance.
 
 ``int``
     Defines a integer variable.
@@ -133,10 +145,15 @@ Keywords
 Constants
 =========
 
+A constant is a literal numeric or character value.
+
+All constants are of a particular data type; you can use type casting to explicitly specify the type of a constant, or let the compiler use the default type based on the value of the constant. 
+
+
 Integer Constants
 -----------------
 
-Integers constants can be represented in different ways :
+An integer constant is a sequence of digits, with an optional prefix to denote a number base.
 
 Hexadecimal
     Starts with 0x or 0X
@@ -147,20 +164,23 @@ Octal
 Decimal
     Any other sequence of digits
 
-These constants can also be set to specific data types by appending one or more of the following characters to the integer :
+You can force an integer constant to be of a long and/or unsigned integer type by appending a sequence of one or more letters to the end of the constant:
 
-- u or U for unsigned
-- l or L for long
+``u`` or ``U``
+    Unsigned integer type.
+
+``l`` or ``L``
+    Long integer type.
 
 
 Character Constants
 -------------------
 
-Character constants are usually a single character enclosed within single quotation marks.
+A character constant is usually a single character enclosed within single quotation marks.
 
-A character constant is of type int by default.
+A character constant is of type int by default. 
 
-There are several “escape sequences” :
+There are several “escape sequences” that you can use :
 
 ``\\``
     Backslash character.
@@ -222,16 +242,42 @@ Either the integer part or the fractional part may be omitted, but not both.
 
 These constants can also be set to specific data types by appending one or more of the following characters to the integer :
 
-- f or F for float
-- l or L for long double
-- none for double
+``f`` or ``F``
+    Float
+
+``l`` or ``L``
+    Long double
+
+Nothing
+    Double
 
 
 String Constants
 ----------------
 
-.. TODO
+A string constant is a sequence of zero or more characters, digits, and escape sequences enclosed within double quotation marks.
 
+A string constant is of type “array of characters”.
+
+All string constants contain a null termination character ``\0`` as their last character.
+
+Strings are stored as arrays of characters, with no inherent size attribute.
+
+The null termination character lets string-processing functions know where the string ends.
+
+Adjacent string constants are concatenated (combined) into one string, with the null termination character added to the end of the final concatenated string.
+
+A string constant can span multiple lines with one of the following methods :
+
+.. code-block:: c
+
+    "Hello, \
+    world!"
+
+.. code-block:: c
+
+   "Hello, "
+   "world!"
 
 Operators
 =========
@@ -262,6 +308,23 @@ The other separators are all single-character tokens themselves:
 
 White Space
 ===========
+
+White space is the collective term used for several characters:
+
+- The space character
+- The tab character
+- The newline character
+- The vertical tab character
+- The form-feed character
+
+White space is ignored (outside of string and character constants), and is therefore optional, except when it is used to separate tokens.
+
+Although you must use white space to separate many tokens, no white space is required between operators and operands, nor is it required between other separators and that which they separate.
+
+Furthermore, wherever one space is allowed, any amount of white space is allowed.
+
+In string constants, spaces and tabs are not ignored; rather, they are part of the string.
+
 
 **********
 Data Types
