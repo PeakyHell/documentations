@@ -13,7 +13,7 @@ jobs:
           python-version: '3.13'
 
       - name: Install Sphinx
-        run: pip install sphinx sphinx-book-theme
+        run: pip install -r requirements.txt
 
       - name: Build Sphinx documentation
         run: cd "$GITHUB_WORKSPACE" && make html
