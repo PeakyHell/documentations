@@ -330,47 +330,309 @@ In string constants, spaces and tabs are not ignored; rather, they are part of t
 Data Types
 **********
 
-Syntax
+Primitive Types
+===============
+
+Integer Types
+-------------
+
+Real Number Types
+-----------------
+
+Complex Number Types
+--------------------
+
+Standard Complex Number Types
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+GNU Extensions for Complex Number Types
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Enumerations
+============
+
+Defining Enumerations
+---------------------
+
+Declaring Enumerations
+----------------------
+
+
+Unions
 ======
 
-.. code-block:: c
+Defining Unions
+---------------
 
-    type variable_name = value;
+Declaring Union Variables
+-------------------------
+
+Declaring Union Variables at Definition
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Declaring Union Variables After Definition
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Initializing Union Members
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-Data types
+Accessing Union Members
+-----------------------
+
+Size of Unions
+--------------
+
+
+Structures
 ==========
 
-.. code-block:: c
+Defining Structures
+-------------------
 
-    bool is_valid = true;
+Declaring Structure Variables
+-----------------------------
 
-    char letter = 'a'; // 8 bits
+Declaring Structure Variables at Definition
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    short small = 3; // 16 bits
-    int number = 16; // 16 bits
-    long big = 128; // 32 bits
-    long long bigger = 1024; // 64 bits
+Declaring Structure Variables After Definition
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    float price = 9.99; // 32 bits
-    double pi = 3.1415926535; // 64 bits
+Initializing Structure Members
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. code-block:: c
+Accessing Structure Members
+---------------------------
 
-    enum Day {}
+Bit Fields
+----------
+
+Size of Structures
+------------------
+
+
+Arrays
+======
+
+Declaring Arrays
+----------------
+
+Initializing Arrays
+-------------------
+
+Accessing Array Elements
+------------------------
+
+Multidimensional Arrays
+-----------------------
+
+Arrays as Strings
+-----------------
+
+Arrays of Unions
+----------------
+
+Arrays of Structures
+--------------------
+
+
+Pointers
+========
+
+Declaring Pointers
+------------------
+
+Initializing Pointers
+---------------------
+
+Pointers to Unions
+------------------
+
+Pointers to Structures
+----------------------
+
+
+Incomplete Types
+================
+
+Type Qualifiers
+===============
+
+Storage Class Specifiers
+========================
+
+Renaming Types
+==============
+
 
 *************************
 Expressions and Operators
 *************************
 
+Expressions
+===========
+
+Assignment Operators
+====================
+
+Incrementing and Decrementing
+=============================
+
+Arithmetic Operators
+====================
+
+Complex Conjugation
+===================
+
+Comparison Operators
+====================
+
+Logical Operators
+=================
+
+Bit Shifting
+============
+
+Bitwise Logical Operators
+=========================
+
+Pointer Operators
+=================
+
+The sizeof Operator
+===================
+
+Type Casts
+==========
+
+Array Subscripts
+================
+
+Function Calls as Expressions
+=============================
+
+The Comma Operator
+==================
+
+Member Access Expressions
+=========================
+
+Conditional Expressions
+=======================
+
+Statements and Declarations in Expressions
+==========================================
+
+Operator Precedence
+===================
+
+Order of Evaluation
+===================
+
+Side Effects
+------------
+
+Sequence Points
+---------------
+
+Sequence Points Constrain Expressions
+-------------------------------------
+
+Sequence Points and Signal Delivery
+-----------------------------------
+
+
 **********
 Statements
 **********
+
+Labels
+======
+
+Expression Statements
+=====================
+
+The if Statement
+================
+
+The switch Statement
+====================
+
+The while Statement
+===================
+
+The do Statement
+================
+
+The for Statement
+=================
+
+Blocks
+======
+
+The Null Statement
+==================
+
+The goto Statement
+==================
+
+The break Statement
+===================
+
+The continue Statement
+======================
+
+The return Statement
+====================
+
+The typedef Statement
+=====================
+
 
 *********
 Functions
 *********
 
+Function Declarations
+=====================
+
+Function Definitions
+====================
+
+Calling Functions
+=================
+
+Function Parameters
+===================
+
+Variable Length Parameter Lists
+===============================
+
+Calling Functions Through Function Pointers
+===========================================
+
+The main Function
+=================
+
+Recursive Functions
+===================
+
+Static Functions
+================
+
+Nested Functions
+================
+
+
 ***************************
 Program Structure and Scope
 ***************************
+
+Program Structure
+=================
+
+Scope
+=====
+
