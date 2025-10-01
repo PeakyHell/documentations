@@ -1,0 +1,24 @@
+name: Build HTML
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install Sphinx
+        run: pip install sphinx sphinx-book-theme
+
+      - name: Build Sphinx documentation
+        run: cd "$GITHUB_WORKSPACE" && make html
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Documentation
+          path: "build/html/"
