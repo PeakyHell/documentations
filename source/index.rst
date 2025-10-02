@@ -11,3 +11,4 @@ documentation for details.
     :caption: Contents:
 
     programming_languages/c_language
+    languages/english
