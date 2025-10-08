@@ -479,21 +479,21 @@ Conditional Perfect
 
 Formula : ``WOULD + HAVE + PAST PARTICIPLE``
 
-+-----------+-------------------------+----------------------------+-------------------------------------+
-| Subject   | Affirmative             | Negative                   | Question                            |
-+===========+=========================+============================+=====================================+
-| I         | would have been working | wouldn't have been working | Would I have been working ?         |
-+-----------+-------------------------+----------------------------+-------------------------------------+
-| You       | would have been working | wouldn't have been working | Would you have been working ?       |
-+-----------+-------------------------+----------------------------+-------------------------------------+
-| He/She/It | would have been working | wouldn't have been working | Would he/she/it have been working ? |
-+-----------+-------------------------+----------------------------+-------------------------------------+
-| We        | would have been working | wouldn't have been working | Would we have been working ?        |
-+-----------+-------------------------+----------------------------+-------------------------------------+
-| You       | would have been working | wouldn't have been working | Would you have been working ?       |
-+-----------+-------------------------+----------------------------+-------------------------------------+
-| They      | would have been working | wouldn't have been working | Would they have been working ?      |
-+-----------+-------------------------+----------------------------+-------------------------------------+
++-----------+-------------------+----------------------+-------------------------------+
+| Subject   | Affirmative       | Negative             | Question                      |
++===========+===================+======================+===============================+
+| I         | would have worked | wouldn't have worked | Would I have worked ?         |
++-----------+-------------------+----------------------+-------------------------------+
+| You       | would have worked | wouldn't have worked | Would you have worked ?       |
++-----------+-------------------+----------------------+-------------------------------+
+| He/She/It | would have worked | wouldn't have worked | Would he/she/it have worked ? |
++-----------+-------------------+----------------------+-------------------------------+
+| We        | would have worked | wouldn't have worked | Would we have worked ?        |
++-----------+-------------------+----------------------+-------------------------------+
+| You       | would have worked | wouldn't have worked | Would you have worked ?       |
++-----------+-------------------+----------------------+-------------------------------+
+| They      | would have worked | wouldn't have worked | Would they have worked ?      |
++-----------+-------------------+----------------------+-------------------------------+
 
 
 Examples :
