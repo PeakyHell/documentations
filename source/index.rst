@@ -10,5 +10,6 @@ documentation for details.
     :maxdepth: 2
     :caption: Contents:
 
+    computer_science/algorithms
     programming_languages/c_language
     languages/english
