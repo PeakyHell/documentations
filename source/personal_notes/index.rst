@@ -1,7 +1,7 @@
-Languages
+Personal Notes
 ======================================
 
-Notes to use as refresher for different languages.
+Personal notes on many different topics.
 
 .. toctree::
     :maxdepth: 2
