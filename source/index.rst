@@ -9,7 +9,8 @@ documentation for details.
 .. toctree::
     :maxdepth: 2
     :caption: Contents:
+    :glob:
 
-    computer_science/algorithms
-    programming_languages/c_language
-    languages/english
+    computer_science/index.rst
+    languages/index.rst
+    programming_languages/index.rst
